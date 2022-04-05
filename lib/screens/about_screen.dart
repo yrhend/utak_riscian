@@ -29,6 +29,11 @@ class AboutScreen extends StatelessWidget {
                         style: Theme.of(context).textTheme.headline4,
                         textAlign: TextAlign.center,
                       ),
+                      Text(
+                        'Batch 5',
+                        style: Theme.of(context).textTheme.headline4,
+                        textAlign: TextAlign.center,
+                      ),
                       SizedBox(height: 20.0),
                       ...researchers.map(
                         (researcher) => ResearcherWidget(
